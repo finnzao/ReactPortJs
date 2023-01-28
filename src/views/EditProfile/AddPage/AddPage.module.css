@@ -1,0 +1,98 @@
+.AddPage {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.painel {
+    background-color: grey;
+    display: flex;
+    min-height: 80vh;
+    border: 1px solid whitesmoke;
+    flex-direction: column;
+    min-width: 80%;
+    align-items: center;
+}
+
+.painel h1 {
+    font-size: 4rem;
+}
+
+.box p {
+    font-size: 2rem;
+    width: 60%;
+    background-color: darkgrey;
+}
+
+.box {
+    width: 80%;
+    padding: 0px 20px;
+}
+
+.item {
+    display: flex;
+    text-align: center;
+    background-color: grey;
+}
+
+.item input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 100%;
+}
+
+.item input:focus {
+    outline: none;
+}
+
+.item input:hover {
+    border-color: whitesmoke;
+}
+
+.item p {
+    display: flex;
+    background-color: darkgrey;
+}
+
+.picture_input {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed black;
+    background-color: rgb(83, 83, 83);
+    color: #aaa;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+}
+
+.picture_imagem {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture_input:hover {
+    color: #777;
+    background-color: #ccc
+}
+
+.picture_input:focus {
+    outline: 2px solid black;
+}
+
+.input_imagem {
+    display: none;
+}
+
+/**/

@@ -1,0 +1,18 @@
+.titlePort {
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.titlePort h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+
+.titlePort .preDivision {
+    width: 100%;
+}

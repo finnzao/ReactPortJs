@@ -1,0 +1,24 @@
+.preDivision {
+    width: 100%;
+    height: 3px;
+    padding: 0 1.6%;
+    display: flex;
+    justify-content: center;
+}
+
+.division {
+    height: 100%;
+    width: 90%;
+    background-color: grey;
+}
+
+@media screen and (max-width: 480px) {
+    .division {
+        width: 60%;
+        margin: 0 10%;
+    }
+
+    .preDivision {
+        padding: 0;
+    }
+}

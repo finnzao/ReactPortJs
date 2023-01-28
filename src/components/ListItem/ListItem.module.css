@@ -1,0 +1,20 @@
+.listItem {
+    height: 250px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .listItem {
+        margin: 5% 10%;
+        padding: 20px;
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listItem {
+        font-size: 80%;
+    }
+}

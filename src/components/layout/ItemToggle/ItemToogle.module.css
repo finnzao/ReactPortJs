@@ -1,0 +1,48 @@
+.box {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+
+}
+
+.text {
+    width: 100%;
+}
+
+.container {
+    width: 30%;
+    margin-left: 20%;
+    flex-direction: column;
+    display: flex;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.boxTitle {
+    width: 100%;
+    border-bottom: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin-left: 0;
+    }
+
+
+}
