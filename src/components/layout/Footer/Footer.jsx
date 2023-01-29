@@ -5,6 +5,7 @@ import styles from "./Footer.module.css"
 import DivisionGreen from "../../../components/divisionPage/DivisonPageGreen/Division";
 import DivisionGrey from "../../../components/divisionPage/DivsionPageGrey/Division";
 function Footer() {
+
     return (
         <>
             <DivisionGrey></DivisionGrey>
