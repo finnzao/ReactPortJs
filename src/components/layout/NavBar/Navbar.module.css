@@ -14,7 +14,7 @@
 }
 
 .iconActive {
-    background-color: blue;
+    background-color: transparent;
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .item a {
-    padding: 0;
+    padding: 5px;
 }
 
 .item a:hover {
@@ -65,7 +65,7 @@
 
 .menuClose {
     display: none;
-    background-color: yellow;
+
 }
 
 .menuMobile {
